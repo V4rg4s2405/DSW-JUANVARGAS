@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkorange;
+}
+
+
+
+.titulo {
+    color: darkolivegreen;
+    margin: 5px 5px 5px 22%;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 5px;
+}
+
+.navegacion {
+    color: darkorange;
+    background-color: green;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    padding: 5px;
+}
+
+/* este alimina las viñetas o puntos de la lista */
+.navegacion>ul>li,
+.navegacion>ul>ul>li {
+    list-style-type: none;
+    cursor: pointer;
+}
+.navegacion>ul {
+    padding-left: 0%;
+}
+
+
+.contenido {
+    color: green;
+    margin-left: 20%;
+    background-color: darkorange;
+    text-align: justify;
+    padding: 10px 10px 10px 20px;
+    height: 10;
+    width: 2 px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.submenuhover {
+    display: none;
+    position: relative;
+}
+
+.submenuhover:hover {
+    display: block;
+    position: relative;
+}
+
+.Menucontenedor {
+    position: relative; 
+}
+
+.Menucontenedor:hover ul {
+    display: block;
+    background: rgb(120, 152, 63);
+}
+
+.block {
+    display: block;
+}
+
+.listitem {
+    padding: 5px;
+    width: auto;
+    display: block;
+}
+
+
+
+.lateral {
+    color: green;
+    margin: 15px;
+    background-color: rgb(76, 48, 22);
+    text-align: center;
+    padding: 10px;
+    height: 150;
+    width: 20 px;
+
+
+}
+
+/* 
+p {
+    color: rgb(188, 237, 81);
+    margin: 15px;
+    background-color: rgb(52, 156, 221);
+    text-align: left;
+    padding: 10 px;
+    height: auto;
+    width: auto;
+    font-size:medium;
+} */
